@@ -1,0 +1,50 @@
+/*------------------termos e condições e politica priv---------------------------
+
+/* Estilos gerais para ambas as páginas */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header2 {
+    background-color: #007BDF; /* Cor do Senai */
+    color: #fff; /* Texto branco */
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+    color: black;
+}
+
+section {
+    margin: 0px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 0px;
+}
+
+/* Estilos específicos para a página de Termos e Condições */
+section:nth-child(odd) {
+    background-color: #f9f9f9; /* Cor de fundo cinza claro */
+    padding: 0px;
+}
+
+/* Estilos específicos para a página de Política de Privacidade */
+section:nth-child(even) {
+    background-color: #f9f9f9; /* Cor de fundo cinza claro */
+    padding: 0px;
+}
+
+.sectionGeral{
+    display: flex;
+    flex-direction: column;
+}
